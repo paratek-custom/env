@@ -27,5 +27,5 @@ jobs:
           #tags: |
           #docker.pkg.github.com/${{ github.repository }}/go-with-hksdk:buster
           tags: |
-            ghcr.io/${{ github.repository }}/go-with-hksdk:buster
+            ghcr.io/paratek-custom/go-with-hksdk:buster
             
