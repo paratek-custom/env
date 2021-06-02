@@ -24,7 +24,8 @@ jobs:
         with:
           push: true
           context: ./build_with_hk/linux64
+          #tags: |
+          #docker.pkg.github.com/${{ github.repository }}/go-with-hksdk:buster
           tags: |
-            #docker.pkg.github.com/${{ github.repository }}/go-with-hksdk:buster
             ghcr.io/${{ github.repository }}/go-with-hksdk:buster
             
