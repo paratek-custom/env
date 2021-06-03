@@ -12,6 +12,10 @@ mkdir ${LD_LIBRARY_PATH} -p
 
 mv CH-HCNetSDKV6.1.6.45_build20210302_linux64/lib/* ${LD_LIBRARY_PATH}
 
+## go tool
+go get github.com/tdewolff/minify/cmd/minify
+go get github.com/go-bindata/go-bindata/go-bindata
+go get github.com/elazarl/go-bindata-assetfs/go-bindata-assetfs
 
 
 ## clear 。。。。。。
