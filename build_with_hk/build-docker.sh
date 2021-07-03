@@ -22,6 +22,8 @@ go get github.com/go-bindata/go-bindata/go-bindata
 echo "get go tools go-bindata-assetfs ..."
 go get github.com/elazarl/go-bindata-assetfs/go-bindata-assetfs
 
+## g++-mingw-w64-x86-64
+apt install -y g++-mingw-w64-x86-64 g++-mingw-w64-i686
 
 ## clear 。。。。。。
 echo "clear caches"

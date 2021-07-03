@@ -23,7 +23,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          context: ./build_with_hk/linux64
+          context: ./build_with_hk
           tags: |
             ghcr.io/paratek-custom/go-with-hksdk:buster
       - name: Build container image
