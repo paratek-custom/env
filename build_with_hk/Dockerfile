@@ -1,4 +1,4 @@
-FROM golang:1.16.4-buster
+FROM golang:1.16-buster
 
 ENV LD_LIBRARY_PATH=/var/lib/HCNetSDK/lib
 ENV GITHUB_TOKEN=
